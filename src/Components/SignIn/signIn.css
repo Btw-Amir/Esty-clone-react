@@ -1,0 +1,119 @@
+.MuiPaper-root{
+    border-radius: 40px;
+}
+.signIN{
+    padding: 25px 40px;
+    width: 300px;
+    border-radius: 20px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    /* scrollbar-width: 0; */
+    overflow: hidden;
+    /* margin: auto; */
+    /* text-align: center; */
+}
+.top{
+    /* border: 1px solid red; */
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.inputs>input{
+    padding: 15px 18px;
+    flex: 1;
+    width: 265px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    position: relative;
+    padding-right: calc(6px * 3.5);
+    padding-left: calc(6px * 2.5);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    height: 48px;
+    color: var(--clg-color-app-input-text, #222222);
+    white-space: nowrap;
+    z-index: 10;
+    transition: border 200ms ease-out,color 200ms ease-out;
+    border: 1px solid var(--clg-color-app-input-border, rgba(14, 14, 14, 0.1803921569));
+}
+.stay{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.check{
+font-weight: 500;
+font-size: 16px;
+}
+.check>input{
+    padding: 30px;
+}
+
+a{
+    color: #222222;
+    font-size: 14px;
+}
+.btns,.other-sign{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.btns>button,.other-sign>button{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid black;
+    padding: 8px 0px;
+    gap: 5px;
+}
+.btns>a{
+    margin: 15px 0px;
+}
+.btns>button{
+    margin-top: 15px;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    background-color: #222222;
+    color: white;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    min-height: 48px;
+    min-width: 48px;
+    padding: 12px 18px;
+}
+.btns>button:hover{
+    z-index: 10;
+}
+.top>button,.other-sign>button{
+    border: 2px solid black;
+    background: none;
+    font-weight: bold;
+}
+.top>button:hover,.other-sign>button:hover{
+    /* border: 1px solid red; */
+transition: 0.5s ease;
+box-shadow: 0px 6px 15px -3px rgba(0,0,0,0.69);
+-webkit-box-shadow: 0px 2px 15px -3px rgba(0,0,0,0.69);
+-moz-box-shadow: 0px 6px 15px -3px rgba(0,0,0,0.69);
+}
+.top>button{
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 8px 10px;
+
+}

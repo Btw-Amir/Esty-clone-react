@@ -10,7 +10,10 @@ font-size: 30.01px;
     gap: 30px;
     
 }
-
+/* .shop-pa{
+    display: grid;
+    place-items: center;
+} */
 .catogory > p{
     text-align: center;
     font-weight: 500;
@@ -20,6 +23,8 @@ font-size: 30.01px;
 .catogory >img{
     border-radius: 50%;
     width: 120px;
+    height: 120px;
+    object-fit: cover;
 }
 .Shop{
     display: flex;

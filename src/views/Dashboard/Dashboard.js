@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './dashboard.css'
 import Footer from '../../Components/Footer/Footer'
 import Nav from '../../Components/Navbar/Navbar'
+import Ads from '../../Components/Products/Products'
 export default function Dashboard() {
   const [data,setData]=useState( [
     {
@@ -98,6 +99,7 @@ export default function Dashboard() {
   <p>Shop by Category
 </p>
 </div>
+<div className='shop-pa'>
 <div className='Shop'>
   {shop.map(function(items){
     return <div className='Shop-cat'>
@@ -106,10 +108,12 @@ export default function Dashboard() {
     </div>
   })}
 </div>
+</div>
+
 <div className='center-btn'>
   <button className='btn'><b>Show more (5)</b></button>
 </div>
-
+<Ads/>
         <Footer/>
     </div>
   )

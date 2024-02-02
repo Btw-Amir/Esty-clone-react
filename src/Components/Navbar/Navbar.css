@@ -59,6 +59,7 @@ border: none;
 .nav2{
     height: 36px;
     background-color: #FFFFFF;
+    padding-bottom: 8px;
 }
 .nav2 >ul{
     list-style: none;
